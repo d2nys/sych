@@ -6,41 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tiny bunny</title>
    <style>
-    ul{
+    ul {
         list-style: none;
     }
 
-a{
+a {
     text-decoration: none;
 }
-.nav{
+.nav {
     display: flex;
     justify-content: center;
     gap: 100px;
 }
-.nav li{
+.nav li {
 font-family: 'Playfair Display';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 19px;
-/* identical to box height */
-
-
-
 }
 a {
     text-decoration: none;
     color: #7D7D7D;
-
 }
-.first{
+.first {
     color: #03A9F4;
-
 }
-   </style>
-        
- 
+.list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 65px;
+    margin-top: 82px;
+    margin-left: 147px;
+    margin-right: 147px;
+    margin-bottom: 62px;
+}
+
+.list li {
+width: 420px;
+}
+   </style>  
 </head>
 <body>
     <header>
@@ -55,7 +61,7 @@ a {
     </header>
     <main>
     <section>
-        <ul>
+        <ul class="list" >
             <li>
                 <img src="mtb.png" alt="">
                 <p>Lifestyle</p>
